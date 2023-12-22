@@ -1,6 +1,6 @@
 # About
 
-(React + Node + Mongo) x Docker
+React, Node and Mongo using Docker
 
 ## How to run
 
