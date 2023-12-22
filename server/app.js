@@ -6,7 +6,7 @@ import "dotenv/config"
 
 const app = express()
 const port = 3001
-app.use(cors({ origin: "http://localhost:3000" }))
+app.use(cors({ origin: ["http://localhost:3000", "http://127.0.0.1:3000"] }))
 
 app.get("/", async (req, res) => {
   let notesData = await Note.find()
@@ -23,7 +23,6 @@ app.get("/", async (req, res) => {
     _id: note._id.toString(),
     body: note.body
   }))
-  console.log("!!!: " + notes.length)
   res.json({ notes })
 })
 
