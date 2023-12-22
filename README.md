@@ -4,7 +4,9 @@
 
 ## How to run
 
-`$ docker-compose up`
+```
+$ docker-compose up
+```
 
 ### Ports
 
