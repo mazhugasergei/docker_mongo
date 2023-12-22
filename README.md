@@ -1,6 +1,6 @@
 # About
 
-React, Node and Mongo using Docker
+Full stack web app demo using Docker
 
 ## How to run
 
